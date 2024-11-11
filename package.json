@@ -2,7 +2,7 @@
   "name": "ado",
   "private": true,
   "scripts": {
-    "postinstall": "cp -r node_modules/module-alias backend/node/node_modules/module-alias",
+    "postinstall": "cp -r node_modules/module-alias backend/node_modules/module-alias",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
@@ -16,9 +16,8 @@
   "workspaces": [
     "apps/*",
     "packages/*",
-    "backend",
     "backend/node",
-    "frontend",
-    "frontend/nuxt"
+    "frontend/nuxt",
+    "frontend/next"
   ]
 }
