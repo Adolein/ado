@@ -10,6 +10,5 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "nuxt": "^3.9.1"
   }
 }

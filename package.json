@@ -16,8 +16,7 @@
   "workspaces": [
     "apps/*",
     "packages/*",
-    "backend/node",
-    "frontend/nuxt",
-    "frontend/next"
+    "backend/*",
+    "frontend/*"
   ]
 }
