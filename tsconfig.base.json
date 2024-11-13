@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+      "allowJs": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "incremental": true,
+      "maxNodeModuleJsDepth": 10,
+      "module": "esnext",
+      "moduleResolution": "bundler",
+      "noEmit": true,
+      "noImplicitAny": true,
+      "noUnusedLocals": true,
+      "resolveJsonModule": true,
+      "strict": true,
+      "target": "es2021",
+      "skipLibCheck": true,
+      "baseUrl": ".",
+      "paths": {
+          "@ado/*": ["/*"],
+          "@ado/node": ["./backend/node/*"],
+          "@ado/next": ["./frontend/next/*"],
+          "@ado/nuxt": ["./frontend/nuxt/*"],
+      }
+  },
+  "exclude": ["**/node_modules/*", "**/dist/*", "**/.*/", "./packages/wallet/tests", "dangerfile.ts"]
+}
